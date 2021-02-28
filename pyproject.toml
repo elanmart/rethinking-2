@@ -5,10 +5,11 @@ description = ""
 authors = ["Marcin Elantkowski <marcin.elantkowski@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-mcx = {git = "https://github.com/rlouf/mcx", rev = "compiler-refactor"}
+python = ">=3.7, <3.9"
+mcx = {git = "https://github.com/rlouf/mcx", rev = "master"}
 pymc3 = "*"
 seaborn = "^0.11.1"
+numba = "^0.52.0"
 
 [tool.poetry.dev-dependencies]
 ipykernel = "*"
